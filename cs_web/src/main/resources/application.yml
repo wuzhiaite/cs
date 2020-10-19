@@ -1,0 +1,36 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /api
+  tomcat:
+    max-http-post-size: 10MB
+
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    cache: true
+  main:
+    allow-bean-definition-overriding: true
+
+#nacos
+nacos:
+  config:
+    file-extension: yaml
+    server-addr: self.txyun.com:8848
+    bootstrap:
+      enable: true
+    data-id: cs_java
+    group: cs_group
+    auto-refresh: true
+    type: yaml
+  discovery:
+    server-addr: self.txyun.com:8848
+
+
+mybatis:
+  configuration:
+    cache-enabled: true
+mybatis-plus:
+  mapper-locations: classpath*:mapper/**/*Mapper.xml
