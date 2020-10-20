@@ -18,5 +18,7 @@
 
 |   模块   |  地址   |   备注   |
 | ---- | ---- | ---- |
-|      |      |      |
-
+|   前端   |   https://gitee.com/wuzhiaite/cs_vue   |   gitee
+|    后台  |   https://gitee.com/wuzhiaite/cs_java   | gitee
+|    前端  |   https://github.com/wuzhiaite/cs_vue   |  github
+|   后台   |  https://github.com/wuzhiaite/cs_java    |  github
